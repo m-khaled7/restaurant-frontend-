@@ -1,0 +1,45 @@
+<div class="min-h-screen flex items-center justify-center bg-linear-to-t from-gray-50 to-second">
+  <div class="flex flex-col items-start justify-center p-10 rounded-3xl w-1/4">
+    <div>
+      <h1 class="text-5xl py-2">Sign Up</h1>
+    </div>
+    <div class="my-8 w-full">
+      <label for="name">Name</label><br />
+      <input
+        id="name"
+        type="text"
+        placeholder="Enter your name"
+        class="p-3 mb-4 placeholder-gray-400 hover:border-primary focus:placeholder-transparent focus:border-primary focus:outline-none transition border border-gray-400 rounded-lg bg-white w-full"
+      /><br />
+      <label for="email">Email</label><br />
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        class="p-3 mb-4 placeholder-gray-400 focus:placeholder-transparent  hover:border-primary focus:border-primary focus:outline-none transition border border-gray-400 rounded-lg bg-white w-full"
+      /><br />
+      <label for="password">Password</label><br />
+      <input
+        id="password"
+        type="password"
+        placeholder="Enter your password"
+        class="p-3 mb-4 placeholder-gray-400 focus:placeholder-transparent  hover:border-primary focus:border-primary focus:outline-none transition border border-gray-400 rounded-lg bg-white w-full"
+      /><br>
+      <label for="confirm-password">Confirm Password</label><br />
+      <input
+        id="confirm-password"
+        type="password"
+        placeholder="Enter your password again"
+        class="p-3 mb-4 placeholder-gray-400 focus:placeholder-transparent  hover:border-primary focus:border-primary focus:outline-none transition border border-gray-400 rounded-lg bg-white w-full"
+      />
+    </div>
+    <div class="flex flex-col items-center justify-center w-full">
+      <button
+        class="px-12 py-2 mb-6 bg-primary rounded-lg text-xl cursor-pointer hover:bg-primary-70"
+      >
+        Register
+      </button> 
+      <p>you have an account? <a class="text-primary" routerLink="/login" > Login </a> </p>
+    </div>
+  </div>
+</div>
